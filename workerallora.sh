@@ -122,7 +122,7 @@ echo
 
 # Install Allorad
 echo -e "${BOLD}${DARK_YELLOW}Installing Allorad...${RESET}"
-execute_with_prompt 'cd /usr/local/lib/python3.10/dist-packages/allocmd/'
+execute_with_prompt 'cd /usr/local/lib/python3.12/dist-packages/allocmd/'
 execute_with_prompt 'git clone -b v0.3.0 https://github.com/allora-network/allora-chain.git'
 execute_with_prompt 'cd allora-chain && make all'
 echo
